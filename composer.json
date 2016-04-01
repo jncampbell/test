@@ -1,0 +1,20 @@
+{
+    "name": "jncampbell/test",
+    "authors": [
+        {
+            "name": "jncampbell",
+            "email": "campbellnjames@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JNCampbell\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "require-dev": {
+        "laravel/homestead": "^3.0"
+    }
+}
